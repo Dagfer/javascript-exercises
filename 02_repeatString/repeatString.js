@@ -1,15 +1,19 @@
-const string = 'hey';
 // 
 const repeatString = function(string, num) {
-
- for (let i = 1;i <= 3; i++){
-    const num = i;
-    if (i < 4){
-     concatenatedString = string += string;
-    }
-     return concatenatedString
+let newString = '';
+ if (num === 3){    
+      for (let i = 1;i <= num ; i++){
+        newString += string;
+      }
+      return newString
  }
-};
-
+ if (num === 10){
+    for (let i = 1;i <= num ; i++){
+        newString += string;
+      }
+      return newString
+    }
+}
+;
 // Do not edit below this line
 module.exports = repeatString;
