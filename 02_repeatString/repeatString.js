@@ -24,7 +24,22 @@ if (num === 0){
         newString += string;
         }
         return newString
-    }        
+    }
+if (num < 0){
+    return 'ERROR'
+}
+if (num){    
+    for (let i = 1;i <= num ; i++){
+      newString += string;
+    }
+    return newString
+}
+if (string === ''){
+    for (let i = 1;i <= num ; i++){
+        newString += string;
+      }
+      return newString
+    }
 }
 ;
 // Do not edit below this line
