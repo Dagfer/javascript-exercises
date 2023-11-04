@@ -13,6 +13,18 @@ let newString = '';
       }
       return newString
     }
+if (num === 1){
+    for (let i = 0;i < num ; i++){
+        newString += string;
+      }
+      return newString
+    }
+if (num === 0){
+    for (let i = 0;i = num ; i++){
+        newString += string;
+        }
+        return newString
+    }        
 }
 ;
 // Do not edit below this line
