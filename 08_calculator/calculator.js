@@ -25,7 +25,19 @@ const power = function(firstNum, secondNum) {
 
 };
 
-const factorial = function() {
+const factorial = function(factorNum) {
+  if (factorNum === 0 || factorNum === 1){
+    return 1;
+  }
+  else if (factorNum >= 2){
+    const factorArray = [];
+    for (i = factorNum; i > 0; i--){
+      factorArray.push(i);
+    } 
+     return factorTotal = factorArray.reduce((total, item) => {
+      return total * item;
+   }, 1);
+  }
 	
 };
 
